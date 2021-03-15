@@ -1,4 +1,4 @@
-name: Studio email
+name: Studio_email
 version: 0.0.1
 patches:
   cms-env-features: |
