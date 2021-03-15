@@ -1,5 +1,5 @@
 name: Studio_email
-version: 0.0.3
+version: 0.0.4
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
