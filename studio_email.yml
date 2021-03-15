@@ -4,3 +4,11 @@ patches:
   cms-env-features: |
     # myplugin special studio email request settings
     "STUDIO_REQUEST_EMAIL": "dennis.bates@durham.ac.uk"
+    "UNIVERSITY_EMAIL": "Dennisbates@outlook.com"
+    "TECH_SUPPORT_EMAIL": "dennis@mdbc.tech"
+    
+  Lms-env-features: |
+    # myplugin special studio email request settings
+    "STUDIO_REQUEST_EMAIL": "dennis.bates@durham.ac.uk"
+    "UNIVERSITY_EMAIL": "Dennisbates@outlook.com"
+    "TECH_SUPPORT_EMAIL": "dennis@mdbc.tech"
