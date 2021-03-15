@@ -1,6 +1,6 @@
 name: Studio_email
-version: 0.0.1
+version: 0.0.2
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
-    "STUDIO_REQUEST_EMAIL": "f83110df.durhamuniversity.onmicrosoft.com@emea.teams.ms"
+    "STUDIO_REQUEST_EMAIL": "dennis.bates@durham.ac.uk"
