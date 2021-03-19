@@ -1,7 +1,9 @@
 name: course_discovery
 version: 0.1.0
 patches:
- openedx-lms-common-settings: |
+ openedx-common-settings: |
   FEATURES["ENABLE_COURSE_DISCOVERY"] = False,
   FEATURES["ENABLE_COURSEWARE_SEARCH"] = False,
-  FEATURES["ENABLE_DASHBOARD_SEARCH"] = False
+  FEATURES["ENABLE_DASHBOARD_SEARCH"] = False,
+  FEATURES["COURSE_CATALOG_VISIBILITY_PERMISSION"] = "see_in_catalog",
+  FEATURES["COURSE_ABOUT_VISIBILITY_PERMISSION"] = "see_about_page"
