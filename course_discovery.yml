@@ -1,5 +1,5 @@
 name: course_discovery
-version: 0.1.0
+version: 0.1.1
 patches:
  openedx-common-settings: |
   FEATURES["ENABLE_COURSE_DISCOVERY"] = False,
