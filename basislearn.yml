@@ -1,19 +1,20 @@
 name: config_settings
-version: 0.1.4
+version: 0.1.5
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
     "STUDIO_REQUEST_EMAIL": "admin@basisevents.org.uk",
     "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
-    "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk"
+    "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk",
+    "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
+    "DEFAULT_EMAIL_LOGO_URL": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png",
+    "LOGO_URL_PNG": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png"
     
-  Lms-env-features: |
+  lms-env-features: |
     # myplugin special studio email request settings
     "STUDIO_REQUEST_EMAIL": "admin@basisevents.org.uk",
     "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
-    "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk"
-
-  common-env-features: |
-    # my plugin special features common email features
+    "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk",
     "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
-    "DEFAULT_EMAIL_LOGO_URL": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png" 
+    "DEFAULT_EMAIL_LOGO_URL": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png",
+    "LOGO_URL_PNG": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png"
