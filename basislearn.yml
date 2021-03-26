@@ -1,0 +1,14 @@
+name: Studio_email
+version: 0.1.0
+patches:
+  cms-env-features: |
+    # myplugin special studio email request settings
+    "STUDIO_REQUEST_EMAIL": "admin@basisevents.org.uk",
+    "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
+    "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk"
+    
+  Lms-env-features: |
+    # myplugin special studio email request settings
+    "STUDIO_REQUEST_EMAIL": "admin@basisevents.org.uk",
+    "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
+    "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk"
