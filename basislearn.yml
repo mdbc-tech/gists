@@ -15,5 +15,5 @@ patches:
 
   common-env-features: |
     # my plugin special features 
-    "UNIVERSITY_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN"
+    "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN"
     "DEFAULT_EMAIL_LOGO_URL": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png"
