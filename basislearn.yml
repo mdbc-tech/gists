@@ -1,5 +1,5 @@
 name: config_settings
-version: 0.1.1
+version: 0.1.2
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
