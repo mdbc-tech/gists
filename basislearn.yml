@@ -1,5 +1,5 @@
 name: Studio_email
-version: 0.1.0
+version: 0.1.2
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -12,6 +12,7 @@ patches:
     "STUDIO_REQUEST_EMAIL": "admin@basisevents.org.uk",
     "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
     "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk"
+
   common-env-features: |
     # my plugin special features 
     "UNIVERSITY_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN"
