@@ -12,3 +12,7 @@ patches:
     "STUDIO_REQUEST_EMAIL": "admin@basisevents.org.uk",
     "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
     "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk"
+  common-env-features: |
+    # my plugin special features 
+    "UNIVERSITY_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN"
+    "DEFAULT_EMAIL_LOGO_URL": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png"
