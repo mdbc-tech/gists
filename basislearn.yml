@@ -1,5 +1,5 @@
 name: config_settings
-version: 0.1.2
+version: 0.1.4
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -14,5 +14,6 @@ patches:
     "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk"
 
   common-env-features: |
-    # my plugin special features
-    "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN"
+    # my plugin special features common email features
+    "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
+    "DEFAULT_EMAIL_LOGO_URL": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png" 
