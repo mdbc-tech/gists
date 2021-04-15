@@ -1,14 +1,16 @@
 name: Studio_email
-version: 0.1.1
+version: 0.1.2
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
     "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk",
     "UNIVERSITY_EMAIL": "adept@durham.ac.uk",
-    "TECH_SUPPORT_EMAIL": "adept@durham.ac.uk"
+    "TECH_SUPPORT_EMAIL": "adept@durham.ac.uk",
+    "CONTACT_MAILING_ADDRESS": "The Palatine Centre Durham University Sockton Road Durham DH1 3LE UK"
     
   lms-env-features: |
     # myplugin special studio email request settings
     "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk",
     "UNIVERSITY_EMAIL": "adept@durham.ac.uk",
-    "TECH_SUPPORT_EMAIL": "adept@durham.ac.uk"
+    "TECH_SUPPORT_EMAIL": "adept@durham.ac.uk",
+    "CONTACT_MAILING_ADDRESS": "The Palatine Centre Durham University Sockton Road Durham DH1 3LE UK"
