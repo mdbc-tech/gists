@@ -5,3 +5,5 @@ patches:
     "MILESTONES_APP": true,
     "ENABLE_PREREQUISITE_COURSES": true,
     "ENTRANCE_EXAMS": true
+  lms-env-features: |
+    "ENABLE_BULK_ENROLLMENT_VIEW": true
