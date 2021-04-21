@@ -1,5 +1,5 @@
 name: courseprerequisistes
-version: 0.1.1
+version: 0.1.2
 patches:
   common-env-features: |
     "MILESTONES_APP": true,
@@ -7,3 +7,4 @@ patches:
     "ENTRANCE_EXAMS": true
   lms-env-features: |
     "ENABLE_BULK_ENROLLMENT_VIEW": true
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true
