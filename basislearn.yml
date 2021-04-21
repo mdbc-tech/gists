@@ -1,5 +1,5 @@
 name: config_settings
-version: 0.2.2
+version: 0.2.3
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -9,7 +9,7 @@ patches:
     "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true
     "ORGANIZATIONS_APP": true"
-    
+
   lms-env-features: |
     # myplugin special studio email request settings
     "STUDIO_REQUEST_EMAIL": "admin@basisevents.org.uk",
