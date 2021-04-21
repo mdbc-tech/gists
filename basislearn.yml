@@ -1,5 +1,5 @@
 name: config_settings
-version: 0.2.0
+version: 0.2.1
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -7,8 +7,6 @@ patches:
     "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
     "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk",
     "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
-    "DEFAULT_EMAIL_LOGO_URL": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png",
-    "LOGO_URL_PNG": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png"
     
   lms-env-features: |
     # myplugin special studio email request settings
@@ -16,5 +14,10 @@ patches:
     "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
     "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk",
     "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
-    "DEFAULT_EMAIL_LOGO_URL": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png",
-    "LOGO_URL_PNG": "https://www.basisonline.org.uk/wp-content/uploads/sites/6/2018/09/Basis-logo.png"
+    "ENABLE_BULK_ENROLLMENT_VIEW": true
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true
+  
+  common-env-features: |
+    "MILESTONES_APP": true,
+    "ENABLE_PREREQUISITE_COURSES": true,
+    "ENTRANCE_EXAMS": true  
