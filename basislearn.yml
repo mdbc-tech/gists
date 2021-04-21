@@ -1,5 +1,5 @@
 name: config_settings
-version: 0.2.1
+version: 0.2.2
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -16,6 +16,7 @@ patches:
     "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
     "ENABLE_BULK_ENROLLMENT_VIEW": true
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true
+    "ORGANIZATIONS_APP": true"
   
   common-env-features: |
     "MILESTONES_APP": true,
