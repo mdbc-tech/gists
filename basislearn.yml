@@ -7,7 +7,7 @@ patches:
     "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
     "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk",
     "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
-    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
     "ORGANIZATIONS_APP": true"
 
   lms-env-features: |
@@ -16,8 +16,8 @@ patches:
     "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
     "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk",
     "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
-    "ENABLE_BULK_ENROLLMENT_VIEW": true
-    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true
+    "ENABLE_BULK_ENROLLMENT_VIEW": true,
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
     "ORGANIZATIONS_APP": true"
   
   common-env-features: |
