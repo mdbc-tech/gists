@@ -1,0 +1,34 @@
+name: config_settings
+version: 0.1.6
+patches:
+  cms-env-features: |
+    # myplugin special studio email request settings
+    "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk",
+    "UNIVERSITY_EMAIL": "adept@durham.ac.uk",
+    "TECH_SUPPORT_EMAIL": "adept@durham.ac.uk",
+    "CONTACT_MAILING_ADDRESS": "The Palatine Centre Durham University Sockton Road Durham DH1 3LE UK",
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
+    "ORGANIZATIONS_APP": true,
+    "XBLOCK_SELECT_FUNCTION" = "prefer_xmodules"
+
+  
+
+lms-env-features: |
+    # myplugin special studio email request settings
+    "ENABLE_COMBINED_LOGIN_REGISTRATION" = true,
+    "ENABLE_THIRD_PARTY_AUTH" = true,
+    "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk",
+    "UNIVERSITY_EMAIL": "adept@durham.ac.uk",
+    "TECH_SUPPORT_EMAIL": "adept@durham.ac.uk",
+    "CONTACT_MAILING_ADDRESS": "The Palatine Centre Durham University Sockton Road Durham DH1 3LE UK",
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
+    "ORGANIZATIONS_APP": true
+    "XBLOCK_SELECT_FUNCTION" = "prefer_xmodules"
+
+
+common-env-features: |
+    "MILESTONES_APP": true,
+    "ENABLE_PREREQUISITE_COURSES": true,
+    "ENTRANCE_EXAMS": true,
+    "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk"
+    "XBLOCK_SELECT_FUNCTION" = "prefer_xmodules"
