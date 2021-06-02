@@ -1,0 +1,38 @@
+name: config_settings
+version: 0.2.5
+patches:
+  cms-env-features: |
+    # myplugin special studio email request settings
+    "STUDIO_REQUEST_EMAIL": "admin@basisevents.org.uk",
+    "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
+    "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk",
+    "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
+    "ORGANIZATIONS_APP": true
+
+  lms-env-features: |
+    # myplugin special studio email request settings
+    "STUDIO_REQUEST_EMAIL": "admin@basisevents.org.uk",
+    "UNIVERSITY_EMAIL": "enquires@basisevents.org.uk",
+    "TECH_SUPPORT_EMAIL": "support@basisevents.org.uk",
+    "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
+    "ENABLE_BULK_ENROLLMENT_VIEW": true,
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
+    "ORGANIZATIONS_APP": true,
+    "REGISTRATION_EXTRA_FIELDS": 
+      city: hidden
+      confirm_email: hidden
+      country: hidden
+      gender: hidden
+      goals: hidden
+      honor_code: hidden
+      level_of_education: hidden
+      mailing_address: hidden
+      terms_of_service: required
+      year_of_birth: hidden
+
+  
+  common-env-features: |
+    "MILESTONES_APP": true,
+    "ENABLE_PREREQUISITE_COURSES": true,
+    "ENTRANCE_EXAMS": true  
