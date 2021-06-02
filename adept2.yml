@@ -22,19 +22,19 @@ lms-env-features: |
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
     "ORGANIZATIONS_APP": true
 
-lms-env: |    
-    "REGISTRATION_EXTRA_FIELDS": {
-      "city": "hidden"
-      "confirm_email": "hidden"
-      "country": "hidden"
-      "gender": "hidden"
-      "goals": "hidden"
-      "honor_code": "hidden"
-      "level_of_education": "hidden"
-      "mailing_address": "hidden"
-      "terms_of_service": "required"
+lms-env-registration-extra-fields: |    
+    # "REGISTRATION_EXTRA_FIELDS": 
+      "city": "hidden",
+      "confirm_email": "hidden",
+      "country": "hidden",
+      "gender": "hidden",
+      "goals": "hidden",
+      "honor_code": "hidden",
+      "level_of_education": "hidden",
+      "mailing_address": "hidden",
+      "terms_of_service": "required",
       "year_of_birth": "hidden"
-      }
+      
 
 common-env-features: |
     "MILESTONES_APP": true,
