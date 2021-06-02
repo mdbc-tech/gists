@@ -20,7 +20,18 @@ lms-env-features: |
     "TECH_SUPPORT_EMAIL": "adept@durham.ac.uk",
     "CONTACT_MAILING_ADDRESS": "The Palatine Centre Durham University Sockton Road Durham DH1 3LE UK",
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
-    "ORGANIZATIONS_APP": true
+    "ORGANIZATIONS_APP": true,
+    "REGISTRATION_EXTRA_FIELDS": 
+      city: hidden
+      confirm_email: hidden
+      country: hidden
+      gender: hidden
+      goals: hidden
+      honor_code: hidden
+      level_of_education: hidden
+      mailing_address: hidden
+      terms_of_service: required
+      year_of_birth: hidden
 
 
 common-env-features: |
