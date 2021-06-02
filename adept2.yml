@@ -1,0 +1,41 @@
+name: config_settings
+version: 0.1.6
+patches:
+  cms-env-features: |
+    # myplugin special studio email request settings
+    "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk",
+    "UNIVERSITY_EMAIL": "adept@durham.ac.uk",
+    "TECH_SUPPORT_EMAIL": "adept@durham.ac.uk",
+    "CONTACT_MAILING_ADDRESS": "The Palatine Centre Durham University Sockton Road Durham DH1 3LE UK",
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
+    "ORGANIZATIONS_APP": true
+  
+
+lms-env-features: |
+    # myplugin special studio email request settings
+    "ENABLE_COMBINED_LOGIN_REGISTRATION" = true,
+    "ENABLE_THIRD_PARTY_AUTH" = true,
+    "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk",
+    "UNIVERSITY_EMAIL": "adept@durham.ac.uk",
+    "TECH_SUPPORT_EMAIL": "adept@durham.ac.uk",
+    "CONTACT_MAILING_ADDRESS": "The Palatine Centre Durham University Sockton Road Durham DH1 3LE UK",
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
+    "ORGANIZATIONS_APP": true,
+    "REGISTRATION_EXTRA_FIELDS": 
+      city: hidden
+      confirm_email: hidden
+      country: hidden
+      gender: hidden
+      goals: hidden
+      honor_code: hidden
+      level_of_education: hidden
+      mailing_address: hidden
+      terms_of_service: required
+      year_of_birth: hidden
+
+
+common-env-features: |
+    "MILESTONES_APP": true,
+    "ENABLE_PREREQUISITE_COURSES": true,
+    "ENTRANCE_EXAMS": true,
+    "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk"
