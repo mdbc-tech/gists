@@ -1,5 +1,5 @@
 name: config_settings
-version: 0.2.6
+version: 0.2.7
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -22,8 +22,8 @@ lms-env-features: |
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
     "ORGANIZATIONS_APP": true
 
-lms-env-registration-extra-fields: |    
-    # "REGISTRATION_EXTRA_FIELDS": 
+lms-env: |    
+     "REGISTRATION_EXTRA_FIELDS": [
       "city": "hidden",
       "confirm_email": "hidden",
       "country": "hidden",
@@ -34,7 +34,7 @@ lms-env-registration-extra-fields: |
       "mailing_address": "hidden",
       "terms_of_service": "required",
       "year_of_birth": "hidden"
-      
+      ]
 
 common-env-features: |
     "MILESTONES_APP": true,
