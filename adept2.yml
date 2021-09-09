@@ -1,5 +1,5 @@
-name: config_settings
-version: 0.2.7
+name: config_SET
+version: 0.2.8
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -13,8 +13,8 @@ patches:
 
 lms-env-features: |
     # myplugin special studio email request settings
-    "ENABLE_COMBINED_LOGIN_REGISTRATION" = true,
-    "ENABLE_THIRD_PARTY_AUTH" = true,
+    "ENABLE_COMBINED_LOGIN_REGISTRATION": true,
+    "ENABLE_THIRD_PARTY_AUTH": true,
     "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk",
     "UNIVERSITY_EMAIL": "adept@durham.ac.uk",
     "TECH_SUPPORT_EMAIL": "adept@durham.ac.uk",
