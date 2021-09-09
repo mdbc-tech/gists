@@ -1,5 +1,5 @@
 name: config_settings
-version: 0.2.6
+version: 0.2.7
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -13,8 +13,8 @@ patches:
   lms-env-features: |
     # myplugin special studio email request settings
     "STUDIO_REQUEST_EMAIL": "admin@lullabytrust-learning.org.uk",
-    "ENABLE_COMBINED_LOGIN_REGISTRATION" = true,
-    "ENABLE_THIRD_PARTY_AUTH" = true,
+    "ENABLE_COMBINED_LOGIN_REGISTRATION": true,
+    "ENABLE_THIRD_PARTY_AUTH": true,
     "UNIVERSITY_EMAIL": "enquires@lullabytrust-learning.org.uk",
     "TECH_SUPPORT_EMAIL": "support@lullabytrust-learning.org.uk",
     "CONTACT_MAILING_ADDRESS": "The Lullaby Trust CAN Mezzanine 7-14 Great Dover Street London SE1 4YR",
