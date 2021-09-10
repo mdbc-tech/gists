@@ -1,5 +1,5 @@
 name: config_trust
-version: 0.3.3
+version: 0.3.4
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -28,3 +28,8 @@ patches:
     "CORS_ORIGIN_ALLOW_ALL": true,
     "ENABLE_THIRD_PARTY_AUTH": true,
     "ENABLE_COMBINED_LOGIN_REGISTRATION": true
+
+  openedx-common-settings: |
+    "CORS_ORIGIN_ALLOW_ALL": true,
+    "CORS_ALLOW_CREDENTIALS": true,
+    "CORS_ORIGIN_WHITELIST": ("login.onmicrosoft.com", "login.microsoft.com")
