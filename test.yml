@@ -18,7 +18,7 @@ patches:
     "CONTACT_MAILING_ADDRESS": "The Lullaby Trust CAN Mezzanine 7-14 Great Dover Street London SE1 4YR",
     "ENABLE_BULK_ENROLLMENT_VIEW": true,
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
-    "ORGANIZATIONS_APP": true,
+    "ORGANIZATIONS_APP": true
       
   common-env-features: |
     "MILESTONES_APP": true,
