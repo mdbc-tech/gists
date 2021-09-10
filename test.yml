@@ -1,5 +1,5 @@
 name: config_trust
-version: 0.3.2
+version: 0.3.3
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -19,12 +19,12 @@ patches:
     "ENABLE_BULK_ENROLLMENT_VIEW": true,
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
     "ORGANIZATIONS_APP": true,
-    "ENABLE_THIRD_PARTY_AUTH": true,
-    "ENABLE_COMBINED_LOGIN_REGISTRATION": true
-  
+      
   common-env-features: |
     "MILESTONES_APP": true,
     "ENABLE_PREREQUISITE_COURSES": true,
     "ENTRANCE_EXAMS": true,
     "STUDIO_REQUEST_EMAIL": "dennis.bates@mbdc-tech.com",
-    "CORS_ORIGIN_ALLOW_ALL": true
+    "CORS_ORIGIN_ALLOW_ALL": true,
+    "ENABLE_THIRD_PARTY_AUTH": true,
+    "ENABLE_COMBINED_LOGIN_REGISTRATION": true
