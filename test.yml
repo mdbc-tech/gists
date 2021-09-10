@@ -1,5 +1,5 @@
 name: config_trust
-version: 0.3.1
+version: 0.3.2
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -26,4 +26,5 @@ patches:
     "MILESTONES_APP": true,
     "ENABLE_PREREQUISITE_COURSES": true,
     "ENTRANCE_EXAMS": true,
-    "STUDIO_REQUEST_EMAIL": "dennis.bates@mbdc-tech.com"
+    "STUDIO_REQUEST_EMAIL": "dennis.bates@mbdc-tech.com",
+    "CORS_ORIGIN_ALLOW_ALL": true
