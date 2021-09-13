@@ -25,7 +25,6 @@ patches:
     "ENABLE_PREREQUISITE_COURSES": true,
     "ENTRANCE_EXAMS": true,
     "STUDIO_REQUEST_EMAIL": "dennis.bates@mbdc-tech.com",
-    "CORS_ORIGIN_ALLOW_ALL": true,
     "ENABLE_THIRD_PARTY_AUTH": true,
     "ENABLE_COMBINED_LOGIN_REGISTRATION": true
 
