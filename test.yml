@@ -1,5 +1,5 @@
 name: config_trust
-version: 0.3.4
+version: 0.3.5
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
