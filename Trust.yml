@@ -8,7 +8,8 @@ patches:
     "TECH_SUPPORT_EMAIL": "support@lullabytrust-learning.org.uk",
     "CONTACT_MAILING_ADDRESS": "The Lullaby Trust CAN Mezzanine 7-14 Great Dover Street London SE1 4YR",
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
-    "ORGANIZATIONS_APP": true
+    "ORGANIZATIONS_APP": true,
+    "CERTIFICATES_HTML_VIEW": true
 
   lms-env-features: |
     # myplugin special studio email request settings
@@ -20,7 +21,8 @@ patches:
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
     "ORGANIZATIONS_APP": true,
     "ENABLE_THIRD_PARTY_AUTH": true,
-    "ENABLE_COMBINED_LOGIN_REGISTRATION": true
+    "ENABLE_COMBINED_LOGIN_REGISTRATION": true,
+    "CERTIFICATES_HTML_VIEW": true
   
   common-env-features: |
     "MILESTONES_APP": true,
