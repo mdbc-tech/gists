@@ -1,5 +1,5 @@
 name: config_trust
-version: 0.3.0
+version: 0.3.1
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -31,6 +31,6 @@ patches:
     "STUDIO_REQUEST_EMAIL": "dennis.bates@mbdc-tech.com"
     
   openedx-common-settings: |
-    "CORS_ORIGIN_ALLOW_ALL": true,
-    "CORS_ALLOW_CREDENTIALS": true,
-    "CORS_ORIGIN_WHITELIST": ("login.microsoftonline.com")
+    "CORS_ORIGIN_ALLOW_ALL": true
+   # "CORS_ALLOW_CREDENTIALS": true,
+   #"CORS_ORIGIN_WHITELIST": ("login.microsoftonline.com")
