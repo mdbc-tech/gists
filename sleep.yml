@@ -1,5 +1,5 @@
 name: config_settings
-version: 0.2.6
+version: 0.2.7
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -20,7 +20,9 @@ patches:
     "ENABLE_BULK_ENROLLMENT_VIEW": true,
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
     "ORGANIZATIONS_APP": true,
-    "CERTIFICATES_HTML_VIEW": true
+    "CERTIFICATES_HTML_VIEW": true,
+    "ENABLE_DISCUSSION_HOME_PANEL": false,
+    "ENABLE_DISCUSSION_SERVICE": false
   
   common-env-features: |
     "MILESTONES_APP": true,
