@@ -22,9 +22,7 @@ patches:
     "ORGANIZATIONS_APP": true,
     "ENABLE_THIRD_PARTY_AUTH": true,
     "ENABLE_COMBINED_LOGIN_REGISTRATION": true,
-    "CERTIFICATES_HTML_VIEW": true,
-    "ENABLE_DISCUSSION_HOME_PANEL": false,
-    "ENABLE_DISCUSSION_SERVICE": false
+    "CERTIFICATES_HTML_VIEW": true
   
   common-env-features: |
     "MILESTONES_APP": true,
