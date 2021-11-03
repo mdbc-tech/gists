@@ -8,9 +8,8 @@ patches:
     "TECH_SUPPORT_EMAIL": "dennis.bates@mbdc-tech.com",
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
     "ORGANIZATIONS_APP": true,
-    "XBLOCK_SELECT_FUNCTION" = "prefer_xmodules"
+    "XBLOCK_SELECT_FUNCTION" : "prefer_xmodules"
   
-
 lms-env-features: |
     # myplugin special studio email request settings
     "ENABLE_COMBINED_LOGIN_REGISTRATION" = true,
@@ -31,5 +30,4 @@ openedx-lms-common-setting: |
 
 common-env-features: |
     "MILESTONES_APP": true,
-    "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk",
-    "XBLOCK_SELECT_FUNCTION" = "prefer_xmodules"
+    "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk"
