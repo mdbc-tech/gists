@@ -1,0 +1,35 @@
+name: test_settings
+version: 0.0.1
+patches:
+  cms-env-features: |
+    # myplugin special studio email request settings
+    "STUDIO_REQUEST_EMAIL": "dennis.bates@mbdc-tech.com",
+    "UNIVERSITY_EMAIL": "dennis.bates@mbdc-tech.com",
+    "TECH_SUPPORT_EMAIL": "dennis.bates@mbdc-tech.com",
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
+    "ORGANIZATIONS_APP": true,
+    "XBLOCK_SELECT_FUNCTION" = "prefer_xmodules"
+  
+
+lms-env-features: |
+    # myplugin special studio email request settings
+    "ENABLE_COMBINED_LOGIN_REGISTRATION" = true,
+    "ENABLE_THIRD_PARTY_AUTH" = true,
+    "STUDIO_REQUEST_EMAIL": "dennis.bates@mbdc-tech.com",
+    "UNIVERSITY_EMAIL": "dennis.bates@mbdc-tech.com",
+    "TECH_SUPPORT_EMAIL": "dennis.bates@mbdc-tech.com",
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
+    "ORGANIZATIONS_APP": true,
+    "ENABLE_COURSE_DISCOVERY": false,
+    "ENABLE_COURSEWARE_SEARCH": false,
+    "ENABLE_DASHBOARD_SEARCH": false
+
+openedx-lms-common-setting: |
+    FEATURES["ENABLE_COURSE_DISCOVERY"] = false,
+    FEATURES["ENABLE_COURSEWARE_SEARCH"] = false,
+    FEATURES["ENABLE_DASHBOARD_SEARCH"] = false
+
+common-env-features: |
+    "MILESTONES_APP": true,
+    "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk",
+    "XBLOCK_SELECT_FUNCTION" = "prefer_xmodules"
