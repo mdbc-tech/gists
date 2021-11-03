@@ -1,5 +1,5 @@
 name: test_settings
-version: 0.0.1
+version: 0.0.3
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -24,9 +24,9 @@ lms-env-features: |
     "ENABLE_DASHBOARD_SEARCH": false
 
 openedx-lms-common-setting: |
-    FEATURES["ENABLE_COURSE_DISCOVERY"] = false,
-    FEATURES["ENABLE_COURSEWARE_SEARCH"] = false,
-    FEATURES["ENABLE_DASHBOARD_SEARCH"] = false
+    "ENABLE_COURSE_DISCOVERY" = false,
+    "ENABLE_COURSEWARE_SEARCH" = false,
+    "ENABLE_DASHBOARD_SEARCH" = false
 
 common-env-features: |
     "MILESTONES_APP": true,
