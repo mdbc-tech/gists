@@ -1,5 +1,5 @@
 name: test_settings
-version: 0.0.3
+version: 0.0.4
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -21,13 +21,11 @@ lms-env-features: |
     "ORGANIZATIONS_APP": true,
     "ENABLE_COURSE_DISCOVERY": false,
     "ENABLE_COURSEWARE_SEARCH": false,
-    "ENABLE_DASHBOARD_SEARCH": false
+    "ENABLE_DASHBOARD_SEARCH": false,
+    "COURSES_ARE_BROWSABLE": false,
+    "SHOW_EXPLORE_COURSES": false
 
-openedx-lms-common-setting: |
-    "ENABLE_COURSE_DISCOVERY" = false,
-    "ENABLE_COURSEWARE_SEARCH" = false,
-    "ENABLE_DASHBOARD_SEARCH" = false
+
 
 common-env-features: |
-    "MILESTONES_APP": true,
-    "STUDIO_REQUEST_EMAIL": "adept@durham.ac.uk"
+    "MILESTONES_APP": true
