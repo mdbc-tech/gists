@@ -1,11 +1,7 @@
 name: mfe_branding_plugin
 version: 0.1.0
 patches:
-mfe-env-development: |
-    LOGO_URL=<URL>/logo.svg
-    LOGO_TRADEMARK_URL=<URL>/logo-trademark.svg
-    LOGO_WHITE_URL=<URL>/logo-white.svg
-    FAVICON_URL=<URL>/favicon.ico
+
 mfe-env-production: |
     LOGO_URL=<URL>/logo.bfed854948e3.png
     LOGO_TRADEMARK_URL=<URL>/logo.bfed854948e3.png
