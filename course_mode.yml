@@ -1,0 +1,26 @@
+name: cours_mode
+version: 0.0.1
+patches:
+ cms-env-features: |
+   "COURSE_MODE_DEFAULTS":
+    name: 'Honor'
+    slug: 'honor'
+    bulk_sku: null
+    currency: 'usd'
+    description: null
+    expiration_datetime: null
+    min_price: 0
+    sku: None
+    suggested_prices: ''
+
+lms-env-features: |
+   "COURSE_MODE_DEFAULTS":
+    name: 'Honor'
+    slug: 'honor'
+    bulk_sku: null
+    currency: 'usd'
+    description: null
+    expiration_datetime: null
+    min_price: 0
+    sku: None
+    suggested_prices: ''
