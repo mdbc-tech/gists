@@ -1,4 +1,4 @@
-name: cours_mode
+name: course_mode
 version: 0.0.1
 patches:
  cms-env-features: |
