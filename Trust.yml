@@ -1,5 +1,5 @@
 name: config_trust
-version: 0.3.5
+version: 0.3.6
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -25,8 +25,10 @@ patches:
     "CERTIFICATES_HTML_VIEW": true
   
   common-env-features: |
+    # enable change user password settings
     "MILESTONES_APP": true,
     "ENABLE_PREREQUISITE_COURSES": true,
     "ENTRANCE_EXAMS": true, 
-    "STUDIO_REQUEST_EMAIL": "dennis.bates@mbdc-tech.com"
+    "STUDIO_REQUEST_EMAIL": "dennis.bates@mbdc-tech.com",
+    "ENABLE_CHANGE_USER_PASSWORD_ADMIN":true
 
