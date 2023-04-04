@@ -30,5 +30,5 @@ patches:
     "ENABLE_PREREQUISITE_COURSES": true,
     "ENTRANCE_EXAMS": true, 
     "STUDIO_REQUEST_EMAIL": "dennis.bates@mbdc-tech.com",
-    "ENABLE_CHANGE_USER_PASSWORD_ADMIN":true
+    "ENABLE_CHANGE_USER_PASSWORD_ADMIN": true
 
