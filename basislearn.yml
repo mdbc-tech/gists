@@ -1,5 +1,5 @@
 name: config_settings
-version: 0.2.7
+version: 0.2.8
 patches:
   cms-env-features: |
     # myplugin special studio email request settings
@@ -22,6 +22,8 @@ patches:
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
     "ORGANIZATIONS_APP": true,
     "CERTIFICATES_HTML_VIEW" : true,
+    "ENABLE_DISCUSSION_HOME_PANEL": false,
+    "ENABLE_DISCUSSION_SERVICE": false,
     "ENABLE_CERTIFICATE_GENERATION": true
   
   common-env-features: |
