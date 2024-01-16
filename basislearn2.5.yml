@@ -18,8 +18,6 @@ patches:
     "CONTACT_MAILING_ADDRESS": "Durham Infancy & Sleep Centre (formerly Parent-Infant Sleep Lab) Hilton Cottage Old Elvet Durham DH1 3BN",
     "ENABLE_BULK_ENROLLMENT_VIEW": true,
     "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
-    "ENABLE_DISCUSSION_HOME_PANEL": false,
-    "ENABLE_DISCUSSION_SERVICE": false,
     "ORGANIZATIONS_APP": true,
     "REGISTRATION_EXTRA_FIELDS": 
       city: hidden
